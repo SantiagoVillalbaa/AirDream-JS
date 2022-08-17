@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "nombre": "Paquete a New York",
+        "precio": 220000,
+        "imagen": "newyork.jpg",
+        "descripcion": "Vuelo + Hospedaje en hotel 5 estrellas x 8 noches",
+        "cantidad": 0
+    },
+    {
+        "id": 2,
+        "nombre": "Paquete a Paris",
+        "precio": 300000.00,
+        "imagen": "paris.jpg",
+        "descripcion": "Vuelo + Hospedaje en hotel 5 estrellas x 8 noches",
+        "cantidad": 0
+    },
+    {
+        "id": 3,
+        "nombre": "Paquete a Londres",
+        "precio": 250000.00,
+        "imagen": "londres.jpg",
+        "descripcion": "Vuelo + Hospedaje en hotel 5 estrellas x 8 noches",
+        "cantidad": 0
+    },
+    {
+        "id": 4,
+        "nombre": "Paquete a Maldivas",
+        "precio": 800000,
+        "imagen": "maldivas.jpg",
+        "descripcion": "Vuelo + Hospedaje en hotel 5 estrellas x 8 noches",
+        "cantidad": 0
+    },
+    {
+        "id": 5,
+        "nombre": "Paquete a Mallorca",
+        "precio": 350000,
+        "imagen": "mallorca.jpg",
+        "descripcion": "Vuelo + Hospedaje en hotel 5 estrellas x 8 noches",
+        "cantidad": 0
+    },
+    {
+        "id": 6,
+        "nombre": "Paquete a Cancun",
+        "precio": 290000,
+        "imagen": "cancun.jpg",
+        "descripcion": "Vuelo + Hospedaje en hotel 5 estrellas x 8 noches",
+        "cantidad": 0
+    },
+    {
+        "id": 7,
+        "nombre": "Hotel en Buenos Aires",
+        "precio": 200000,
+        "imagen": "buenosaires.jpg",
+        "descripcion": "Hospedaje en hotel 5 estrellas x 8 noches",
+        "cantidad": 0
+    },
+    {
+        "id": 8,
+        "nombre": "Hotel en Madrid",
+        "precio": 280000,
+        "imagen": "madrid.jpg",
+        "descripcion": "Hospedaje en hotel 5 estrellas x 8 noches",
+        "cantidad": 0
+    },
+    {
+        "id": 9,
+        "nombre": "Hotel en Chicago",
+        "precio": 310000,
+        "imagen": "chicago.jpg",
+        "descripcion": "Hospedaje en hotel 5 estrellas x 8 noches",
+        "cantidad": 0
+    },
+    {
+        "id": 10,
+        "nombre": "Hotel en Aruba",
+        "precio": 400000,
+        "imagen": "aruba.jpg",
+        "descripcion": "Hospedaje en hotel 5 estrellas x 8 noches",
+        "cantidad": 0
+    },
+    {
+        "id": 11,
+        "nombre": "Hotel en Tulum",
+        "precio": 370000,
+        "imagen": "tulum.jpg",
+        "descripcion": "Hospedaje en hotel 5 estrellas x 8 noches",
+        "cantidad": 0
+    },
+    {
+        "id": 12,
+        "nombre": "Hotel en San Andres",
+        "precio": 350000,
+        "imagen": "sanandres.jpg",
+        "descripcion": "Hospedaje en hotel 5 estrellas x 8 noches",
+        "cantidad": 0
+    }
+]

@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bebas Neue', cursive;
+    background-color: #edf7f7;
+    color: black;
+}
+
+
+
+/* HEADER */
+
+.logo-inicio {
+	margin-top: 20px;
+    margin-left: 30px;
+    width: 150px;
+    height: 150px;
+    border-radius: 120px ;
+    box-shadow: 0px 1px 10px 0 #000000;
+}
+
+
+.menu-inicio {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+.menu-inicio li a {
+    text-decoration: none;
+    margin-top: 20px;
+    color: black;
+    padding: 0px 13px;
+    font-size: 23px;
+    font-weight: 600;
+}
+.menu-inicio li a:hover {
+    color: #2fb4cc;
+    transition: 0.4s;
+}
+
+
+.fotoCarrito {
+    margin-top: 20px;
+}
+
+
+
+
+
+/* Section Nosotros */
+.nosotros {
+    margin-left: 15%;
+    margin-top: 4%;
+    width: 35%;
+}
+.nosotros h2 {
+    font-size: 35px;
+    font-weight: 600;
+}
+.nosotros p {
+    margin-top: 7%;
+}
+.galeria-nosotros {
+    margin-top: 3%;
+    margin-left: 15%;
+    width: 80%;
+}
+
+.img-nosotros {
+    width: 330px;
+    height: 300px;
+    box-shadow: 0px 1px 10px 0 #000000;
+}
+
+.hr-nosotros {
+    margin-top: 8%;
+    margin-left: 20%;
+    width: 60%;
+    height: 7px;
+}
+
+/* SECTION PAQUETES */
+
+.titulo-servicios {
+    margin-top: 8%;
+    font-size: 35px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.paquetes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-right: 10%;
+    margin-left: 10%;
+    gap: 3rem;
+}
+
+
+.cards-paquetes {
+    margin-top: 7%;
+    height: auto;
+    width: 100%;
+    /* box-shadow: 2px 6px 3px 3px rgb(0, 0, 0, 0.3); */
+    transition: all 400ms ease;
+}
+
+.cards-paquetes:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4); 
+    transform: translateY(-3%);
+}
+
+.img-cards {
+    width: 100%;
+    height: 200px;
+}
+
+.agregar-carrito {
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    border: 1px solid #2fb4cc;
+    color: black;
+    border-radius: 20px;
+    margin-bottom: 3%;
+    transition: all 400ms ease;
+}
+
+.agregar-carrito:hover {
+    background: #2fb4cc;
+} 
+
+.letra-cards {
+    margin-left: 3%;
+}
+
+.precio-cards{
+    margin-left: 3%;
+    font-size: 19px;
+}
+
+.titulo-cards{
+    margin-top: 3%;
+    margin-left: 3%;
+    font-size: 25px;
+}
+
+.img-carrito {
+    margin-top: 20px;
+    width: 120px;
+    height: auto;
+}
+
+/* Clientes */
+
+.clientes {
+    display: flex;
+    justify-items: center;
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.card {
+    height: auto;
+    width: 300px;
+    margin: 10px;
+    /* box-shadow: 2px 6px 3px 3px rgb(0, 0, 0, 0.3); */
+    transition: all 400ms ease;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4); 
+    transform: translateY(-3%);
+}
+
+.card-clientes{
+    margin-right: 2%;
+    width: 100%;
+    height: 200px;
+}
+.card-title {
+    margin-top: 5%;
+}
+
+
+/* Contacto */
+
+.titulo-servicios {
+    margin-top: 8%;
+    font-size: 35px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.contacto {
+    margin-top: 8%;
+    margin-left: 25%;
+}
+.boton-contacto {
+    transform: translate(300px);
+}
+
+
+/* Footer */
+.box__copyright {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.box__copyright p {
+    margin-top: 20px;
+    color: black;
+}
+
+.box__copyright hr {
+    border: none;
+    height: 1px;
+}
+.boton-final {
+    display: flex;
+    justify-content: end;
+}
